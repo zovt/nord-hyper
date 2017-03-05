@@ -78,10 +78,6 @@ exports.decorateConfig = config => {
       .cursor-node[focus=true] {
         mix-blend-mode: difference;
       }
-      .cursor-node[focus=true]:not([hyper-blink-moving]) {
-        box-sizing: content-box !important;
-        animation: blink 1s ease infinite;
-      }
     `,
     css: `
       ${config.css || ""}
